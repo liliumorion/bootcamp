@@ -1,33 +1,107 @@
 html {
-    box-sizing: border-box;
-}
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-body {
-    font-family: 'Open Sans', sans-serif;
-}
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Kavivanar', cursive;
-    font-weight: normal;
-}
-h2 {
-    font-size: 2rem;
-    color: #A51F10;
-    margin: 0;
-}
-a {
-    color: #DA0090;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-}
-.posted {
-    font-size: 0.8rem;
-    color: #89A611;
-}
-footer {
+    box-sizing : border-box;
+    }
+    *, *:before, *:after {
+    box-sizing : inherit;
+    }
+    body {
+    font-family : 'Open Sans', sans-serif;
+    }
+    .wrapper {
+    width : 80%;
+    margin : 0 auto;
+    }
+    header {
+    display : flex;
+    justify-content : center;
+    margin : 0;
+    }
+    .rightheader {
+    padding : 0.5rem;
+    margin-top : 3.5rem;
+    }
+    .rightheader p {
+    margin : 0;
+    padding : 0;
+    font-size : 1rem;
+    }
+    nav {
+    padding : 0;
+    border-top : 2px solid #DA0090;
+    border-bottom : 2px solid #A51F10;
+    }
+    nav ul {
+    margin : 0;
+    padding : 0;
+    display : flex;
+    justify-content : center;
+    list-style-type : none;
+    }
+    li {
+    padding : 0;
+    margin : 1rem;
+    }
+    nav a {
+    color : #A51F10;
+    }
+    article {
+    margin : 2rem 0;
+    }
+    article img {
+    float : left;
+    margin : 0 1rem 1rem 0;
+    border-radius : 15px;
+    }
+    article::after {
+    content : "";
+    display : table;
+    clear : both;
+    }
+    h1 {
+    font-size : 2.2rem;
+    letter-spacing : 3px;
+    color : #DA0090;
+    margin : 0;
+    }
+    h1, h2, h3, h4, h5, h6 {
+    font-family : 'Kavivanar', cursive;
+    font-weight : normal;
+    }
+    h2 {
+    font-size : 2rem;
+    color : #A51F10;
+    margin : 0;
+    }
+    a {
+    color : #DA0090;
+    text-decoration : none;
+    }
+    a:hover {
+    text-decoration : none;
+    color:aliceblue;
+    background-color: #A51F10;
+    }
+    .posted {
+    font-size : 0.8rem;
+    color : #89A611;
+    }
+    section {
+    border-bottom : 2px solid #A51F10;
+    margin-bottom : 0.5rem;
+    }
+    footer {
+    margin : 1rem;
+    padding: 1rem 0 3rem 0;
     text-align: center;
-    font-size: 0.8rem;
-}
+    font-size : 1rem;
+    border-top : 2px solid #DA0090;
+
+    }
+    footer ul {
+    margin : 0;
+    padding : 0;
+    list-style-type : none;
+    }
+    footer li {
+    display : inline-block;
+    }
